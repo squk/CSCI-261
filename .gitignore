@@ -1,6 +1,9 @@
 # Submitted Files
 *.zip
 
+#vim files
+*.vim
+
 # Compiled Object files
 *.slo
 *.lo
