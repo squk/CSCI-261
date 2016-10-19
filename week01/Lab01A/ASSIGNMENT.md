@@ -64,29 +64,35 @@ The same rules we discussed for a project's name apply for a source code's name 
 * * *
 
 After you have successfully added a new source code file, Visual Studio will automatically open the file with a text editor. You can now start typing code. Sweet! Since this is a programming class, not a typing class, enter the code between the following lines with cut/paste:
+```c++
+/* CSCI 261 Lab 01A: XXXX (_GIVE_BRIEF_DESCRIPTION_HERE_)
+*
+* Author: XXXX (_INSERT_YOUR_NAME_HERE_)
+*
+* More complete description here...
+*/
 
-    /* CSCI 261 Lab 01A: XXXX (_GIVE_BRIEF_DESCRIPTION_HERE_)
-    *
-    * Author: XXXX (_INSERT_YOUR_NAME_HERE_)
-    *
-    * More complete description here...
-    */
+// The include section adds extra definitions from the C++ standard library.
+#include <iostream> // For cin, cout, etc.
 
-    // The include section adds extra definitions from the C++ standard library.
-    #include <iostream> // For cin, cout, etc.
+// We will (most of the time) use the standard library namespace in our programs.
+using namespace std;
 
-    // We will (most of the time) use the standard library namespace in our programs.
-    using namespace std;
+// Define any constants or global variables below this comment.
 
-    // Define any constants or global variables below this comment.
+// Must have a function named "main", which is the starting point of a C++ program.
+int main() {
 
-    // Must have a function named "main", which is the starting point of a C++ program.
-    int main() {
+  /******** INSERT YOUR CODE BELOW HERE ********/
 
-      /******** INSERT YOUR CODE BELOW HERE ********/
+  cout << "Hello world!" << endl; // print Hello world! to the screen
 
-      cout
+  /******** INSERT YOUR CODE ABOVE HERE ********/
 
+  return 0; // signals the operating system that our program ended OK.
+}
+	
+```
   
 
 Next, edit all places where XXXX appears in your main.cpp file with the appropriate information. When you are done, you can save main.cpp by typing Ctrl+s. (Note: You might also want to remember Ctrl+Shift+S, which is handy to save edits to multiple files.) Note the yellow vertical bar (which means unsaved lines) changes to green once save completes. Also note the line numbers in your text editor to the left of your code; if you don't see line numbers, go back and make sure you completed all steps in [Lab 00][4].
